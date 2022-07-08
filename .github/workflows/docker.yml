@@ -19,7 +19,7 @@ jobs:
         id: docker_meta
         uses: crazy-max/ghaction-docker-meta@v1
         with:
-          images: ximliu/akiiya-XrayR
+          images: ximliu/akiiya-xrayr
           tag-semver: |
             {{version}}
             {{major}}.{{minor}}
